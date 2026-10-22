@@ -15,5 +15,3 @@
 ## 📋 Répartition des tâches
 - [Membre 1] : Intégration CSS / Thème enfant
 - [Membre 2] : Configuration et documentation
-
-![alt text](image.png)
