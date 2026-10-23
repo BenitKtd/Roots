@@ -2,8 +2,8 @@
 
 ## 👥 Équipe et Concept
 - **Membres :** Benit, Marie 
-- **Enseignants :** [Noms des enseignants DFEF / DIA]
-- **Concept du projet :** [Description du projet]
+- **Enseignants :** Holvoet et Bouchat
+- **Concept du projet :** Un site web eco-challenge. Il s'agit de quiz court avec comme "récompense" une poussé virtuel d'un arbre. L'utilisateur peut partager ses résultats sur les réseaux sociaux.
 
 ## 🛠️ Outils utilisés
 - WordPress, PHP, CSS, JavaScript, Git, VS Code, IA
@@ -13,5 +13,5 @@
 - **Commits :** `feat: description`
 
 ## 📋 Répartition des tâches
-- [Membre 1] : Intégration CSS / Thème enfant
-- [Membre 2] : Configuration et documentation
+- Marie : Intégration CSS / Thème enfant (flexible)
+- Benit : Configuration et documentation (flexible)
