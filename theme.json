@@ -1,0 +1,185 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/theme.json",
+  "version": 3,
+  "settings": {
+    "appearanceTools": true,
+    "layout": {
+      "contentSize": "640px",
+      "wideSize": "1200px"
+    },
+    "color": {
+      "defaultPalette": false,
+      "palette": [
+        {
+          "slug": "background",
+          "color": "#253935",
+          "name": "Fond"
+        },
+        {
+          "slug": "text",
+          "color": "#c8d74f",
+          "name": "Texte"
+        },
+        {
+          "slug": "Interaction",
+          "color": "#f4e70b",
+          "name": "Interaction"
+        }
+      ]
+    },
+    "typography": {
+      "defaultFontSizes": false,
+      "fluid": true,
+      "fontFamilies": [
+        {
+          "fontFamily": "'Poppins', sans-serif",
+          "name": "Poppins",
+          "slug": "poppins"
+        },
+        {
+          "fontFamily": "'Rubik Dirt', system-ui",
+          "name": "Rubik Dirt",
+          "slug": "rubik-dirt"
+        }
+      ],
+      "fontSizes": [
+        {
+          "slug": "titre",
+          "name": "Titre (13px)",
+          "size": "0.8125rem"
+        },
+        {
+          "slug": "texte",
+          "name": "Texte (14px)",
+          "size": "0.875rem"
+        },
+        {
+          "slug": "bouton",
+          "name": "Bouton (16px)",
+          "size": "1rem"
+        },
+        {
+          "slug": "h1",
+          "name": "H1 (30px)",
+          "size": "1.875rem",
+          "fluid": {
+            "min": "1.5rem",
+            "max": "1.875rem"
+          }
+        }
+      ]
+    },
+    "spacing": {
+      "defaultSpacingSizes": false,
+      "spacingSizes": [
+        {
+          "slug": "sm",
+          "name": "Space SM (8px)",
+          "size": "0.5rem"
+        },
+        {
+          "slug": "md",
+          "name": "Space MD (16px)",
+          "size": "1rem"
+        },
+        {
+          "slug": "lg",
+          "name": "Space LG (24px)",
+          "size": "1.5rem"
+        },
+        {
+          "slug": "1",
+          "name": "Espacement 1 (26px)",
+          "size": "1.625rem"
+        },
+        {
+          "slug": "2",
+          "name": "Espacement 2 (52px)",
+          "size": "3.25rem"
+        },
+        {
+          "slug": "3",
+          "name": "Espacement 3 (78px)",
+          "size": "4.875rem"
+        },
+        {
+          "slug": "4",
+          "name": "Espacement 4 (104px)",
+          "size": "6.5rem"
+        }
+      ]
+    },
+    "border": {
+      "radius": true,
+      "radiusSizes": [
+        {
+          "slug": "carre",
+          "name": "Carré (0px)",
+          "size": "0px"
+        },
+        {
+          "slug": "arrondi-sm",
+          "name": "Arrondi SM (4px)",
+          "size": "0.25rem"
+        },
+        {
+          "slug": "doux-sm",
+          "name": "Doux SM (8px)",
+          "size": "0.5rem"
+        },
+        {
+          "slug": "arrondi-md",
+          "name": "Arrondi MD (12px)",
+          "size": "0.75rem"
+        },
+        {
+          "slug": "doux-md",
+          "name": "Doux MD (24px)",
+          "size": "1.5rem"
+        },
+        {
+          "slug": "pill",
+          "name": "Pill (999px)",
+          "size": "999px"
+        }
+      ]
+    }
+  },
+  "styles": {
+    "color": {
+      "background": "var(--wp--preset--color--background)",
+      "text": "var(--wp--preset--color--text)"
+    },
+    "typography": {
+      "fontFamily": "var(--wp--preset--font-family--poppins)",
+      "fontSize": "var(--wp--preset--font-size--texte)",
+      "lineHeight": "1.6"
+    },
+    "elements": {
+      "link": {
+        "color": {
+          "text": "var(--wp--preset--color--Interaction)"
+        }
+      },
+      "button": {
+        "typography": {
+          "fontSize": "var(--wp--preset--font-size--bouton)",
+          "fontWeight": "700"
+        }
+      },
+      "heading": {
+        "typography": {
+          "fontFamily": "var(--wp--preset--font-family--rubik-dirt)",
+          "fontWeight": "700",
+          "lineHeight": "1.2"
+        }
+      },
+      "h1": {
+        "typography": {
+          "fontSize": "var(--wp--preset--font-size--h1)",
+          "fontWeight": "700"
+        }
+      }
+    }
+  }
+}
