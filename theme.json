@@ -73,6 +73,21 @@
       "defaultSpacingSizes": false,
       "spacingSizes": [
         {
+          "slug": "sm",
+          "name": "Space SM (8px)",
+          "size": "0.5rem"
+        },
+        {
+          "slug": "md",
+          "name": "Space MD (16px)",
+          "size": "1rem"
+        },
+        {
+          "slug": "lg",
+          "name": "Space LG (24px)",
+          "size": "1.5rem"
+        },
+        {
           "slug": "1",
           "name": "Espacement 1 (26px)",
           "size": "1.625rem"
@@ -91,6 +106,41 @@
           "slug": "4",
           "name": "Espacement 4 (104px)",
           "size": "6.5rem"
+        }
+      ]
+    },
+    "border": {
+      "radius": true,
+      "radiusSizes": [
+        {
+          "slug": "carre",
+          "name": "Carré (0px)",
+          "size": "0px"
+        },
+        {
+          "slug": "arrondi-sm",
+          "name": "Arrondi SM (4px)",
+          "size": "0.25rem"
+        },
+        {
+          "slug": "doux-sm",
+          "name": "Doux SM (8px)",
+          "size": "0.5rem"
+        },
+        {
+          "slug": "arrondi-md",
+          "name": "Arrondi MD (12px)",
+          "size": "0.75rem"
+        },
+        {
+          "slug": "doux-md",
+          "name": "Doux MD (24px)",
+          "size": "1.5rem"
+        },
+        {
+          "slug": "pill",
+          "name": "Pill (999px)",
+          "size": "999px"
         }
       ]
     }
